@@ -6,7 +6,15 @@ namespace CSharpConsoleDemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");    
+            var test = new StudentTest();
+
+            test.SetName("felix");
+
+            test.GetName();
+
+            test.SetAge();
+
+            Console.ReadKey();
         }
     }
 }
